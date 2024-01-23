@@ -151,7 +151,7 @@ const peeps = [
 ];
 
 countScores(peeps); // => { Anthony: 4, Fred: 4, Winnie: 6 }
-firstNPrimes
+# firstNPrimes
 Using the isPrime function you made, write a function firstNPrimes(n) that returns an array of the first n prime numbers.
 
 Examples:
