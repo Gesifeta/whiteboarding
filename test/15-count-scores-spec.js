@@ -1,5 +1,5 @@
 import { expect } from "chai"
-const { countScores } = require("../wb/15-count-scores-spec")
+import countScores from "../wb/15-count-scores.js"
 
 describe("Count score", () => {
     it("Should return an object that has key-value pairs where each name is a key and the value is their total score", () => {

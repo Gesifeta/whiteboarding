@@ -1,5 +1,5 @@
-import {expect} from "chai"
-const { intersect } = require("../wb/13-abbreviate")
+import { expect } from "chai"
+import abbreviate from "../wb/13-abbreviate.js"
 
 describe("Abbreviate Array", () => {
     it("Should return a new sentence where words longer than 4 characters have their vowels removed", () => {

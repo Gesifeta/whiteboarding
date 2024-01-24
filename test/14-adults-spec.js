@@ -1,5 +1,5 @@
 import { expect } from "chai"
-const { showAdults } = require("../wb/14-adults")
+import showAdults from "../wb/14-adults.js"
 
 describe("Adults", () => {
     it("Should return an array containing the names of those who have an age of 18 or higher.", () => {
@@ -15,7 +15,7 @@ describe("Adults", () => {
             { name: 'Jane', age: 18 },
             { name: 'Bob', age: 27 }
         ];
-        expect(showAdults(ppl)).to.equal.apply(['John', 'Jane']);
-        expect(showAdults(ppl2)).to.equal.apply(['Jim', 'Tom', 'Bob']);
+        expect(showAdults(ppl)).to.have.members(['John', 'Jane']);
+        expect(showAdults(ppl2)).to.have.members(['Tom', 'Jane', 'Bob']);
     })
 })
