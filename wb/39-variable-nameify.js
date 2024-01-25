@@ -11,6 +11,6 @@ const variableNameify = (arr) => {
     }
     return nameified.join('');
 }
-console.log(variableNameify(['is', 'prime'])) // => 'isPrime'
-console.log(variableNameify(['remove', 'last', 'vowel'])) // => 'removeLastVowel'
-console.log(variableNameify(['MaX', 'VALUE'])) // => 'maxValue'
+(variableNameify(['is', 'prime'])) // => 'isPrime'
+    (variableNameify(['remove', 'last', 'vowel'])) // => 'removeLastVowel'
+    (variableNameify(['MaX', 'VALUE'])) // => 'maxValue'

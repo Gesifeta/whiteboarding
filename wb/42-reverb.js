@@ -11,7 +11,7 @@ const reverb = (string) => {
     }
     return string;
 }
-console.log(reverb('running'));  // => 'runninging'
-console.log(reverb('wild'));// => 'wildild'
-console.log(reverb('debugged'));  // => 'debuggeded'
-console.log(reverb('my'));  //) => 'my'
+(reverb('running'));  // => 'runninging'
+(reverb('wild'));// => 'wildild'
+(reverb('debugged'));  // => 'debuggeded'
+(reverb('my'));  //) => 'my'

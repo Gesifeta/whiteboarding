@@ -10,6 +10,6 @@ const greatestCommonFactor = (num1, num2) => {
     }
     return greatest;
 }
-console.log(greatestCommonFactor(15, 25)) // => 5
-console.log(greatestCommonFactor(16, 24)) // => 8
-console.log(greatestCommonFactor(7, 11)) // => 1
+(greatestCommonFactor(15, 25)) // => 5
+    (greatestCommonFactor(16, 24)) // => 8
+    (greatestCommonFactor(7, 11)) // => 1

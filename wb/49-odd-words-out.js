@@ -9,5 +9,5 @@ const oddWordsOut = (sentence) => {
     }
     return spliced;
 }
-console.log(oddWordsOut('go to the store and buy milk'));  // => 'go to milk'
-console.log(oddWordsOut('what is the answer'));  // => 'what is answer'
+(oddWordsOut('go to the store and buy milk'));  // => 'go to milk'
+(oddWordsOut('what is the answer'));  // => 'what is answer'

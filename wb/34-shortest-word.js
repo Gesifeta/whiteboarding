@@ -15,5 +15,5 @@ const shortestWord = (sentence) => {
 
     }
 }
-console.log(shortestWord('is  pp academy is a cool')) // => 'is'
-console.log(shortestWord(' programming bootcamp assessment least ')) // => 'bootcamp'
+(shortestWord('is  pp academy is a cool')) // => 'is'
+    (shortestWord(' programming bootcamp assessment least ')) // => 'bootcamp'

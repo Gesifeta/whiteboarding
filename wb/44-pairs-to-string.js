@@ -12,7 +12,7 @@ const array1 = [
     ['b', 1],
     ['c', 2]
 ];
-console.log(pairsToString(array1));  // => 'aaabcc'
+(pairsToString(array1));  // => 'aaabcc'
 
 const array2 = [
     ['f', 1],
@@ -20,4 +20,4 @@ const array2 = [
     ['d', 1],
     ['!', 1]
 ];
-console.log(pairsToString(array2));  // => 'food!'
+(pairsToString(array2));  // => 'food!'

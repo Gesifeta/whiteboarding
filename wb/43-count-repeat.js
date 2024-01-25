@@ -16,8 +16,8 @@ const countRepeats = (string) => {
     }
     return repeat;
 }
-console.log(countRepeats('calvin')); // => 0
-console.log(countRepeats('caaaalvin')); // => 1
-console.log(countRepeats('pops')); // => 1
-console.log(countRepeats('mississippi')); // => 3
-console.log(countRepeats('heobllootcampprep')); // => 4
+(countRepeats('calvin')); // => 0
+(countRepeats('caaaalvin')); // => 1
+(countRepeats('pops')); // => 1
+(countRepeats('mississippi')); // => 3
+(countRepeats('heobllootcampprep')); // => 4

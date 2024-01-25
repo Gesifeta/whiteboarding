@@ -11,6 +11,6 @@ const collapseString = (str) => {
     }
     return chars.join("")
 }
-console.log(collapseString('apple')); // => 'aple'
-console.log(collapseString('AAAaalviiiiiiiin!!!')); // => 'Aalvin!'
-console.log(collapseString('hello   app academy')); // => 'helo ap academy'
+(collapseString('apple')); // => 'aple'
+(collapseString('AAAaalviiiiiiiin!!!')); // => 'Aalvin!'
+(collapseString('hello   app academy')); // => 'helo ap academy'

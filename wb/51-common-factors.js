@@ -11,7 +11,7 @@ const commonFactors = (num1, num2) => {
     return commonFactor;
 
 }
-console.log(commonFactors(12, 50));  // => [ 1, 2 ]
-console.log(commonFactors(6, 24));  // => [ 1, 2, 3, 6 ]
-console.log(commonFactors(11, 22));  // => [ 1, 11 ]
-console.log(commonFactors(45, 60));  // => [ 1, 3, 5, 15 ]
+(commonFactors(12, 50));  // => [ 1, 2 ]
+(commonFactors(6, 24));  // => [ 1, 2, 3, 6 ]
+(commonFactors(11, 22));  // => [ 1, 11 ]
+(commonFactors(45, 60));  // => [ 1, 3, 5, 15 ]

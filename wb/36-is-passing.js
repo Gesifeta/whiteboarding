@@ -16,11 +16,11 @@ const assessments1 = [
     { number: 5, score: 85 }
 ];
 
-console.log(isPassing(assessments1)) // => true
+(isPassing(assessments1)) // => true
 const assessments2 = [
     { number: 1, score: 60 },
     { number: 2, score: 20 },
     { number: 3, score: 45 }
 ];
 
-console.log(isPassing(assessments2)) // => false
+(isPassing(assessments2)) // => false

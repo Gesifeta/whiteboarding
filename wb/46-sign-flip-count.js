@@ -7,8 +7,8 @@ const signFlipCount = (arr) => {
     }
     return count;
 }
-console.log(signFlipCount([5, 6, 10, 3]))// => 0
-console.log(signFlipCount([-12, 0, -3, -5])); // => 0
-console.log(signFlipCount([-12, 10, -3, 7, -5])); // => 4
-console.log(signFlipCount(-1, -2, -3, -4)); // => 0
-console.log(signFlipCount([-1, 11, -3, 100])); // => 3
+(signFlipCount([5, 6, 10, 3]))// => 0
+    (signFlipCount([-12, 0, -3, -5])); // => 0
+(signFlipCount([-12, 10, -3, 7, -5])); // => 4
+(signFlipCount(-1, -2, -3, -4)); // => 0
+(signFlipCount([-1, 11, -3, 100])); // => 3

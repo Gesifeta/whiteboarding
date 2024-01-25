@@ -17,7 +17,7 @@ const commonPrimeFactor = (num1, num2) => {
     }
     return commonPrimeFactors;
 }
-console.log(commonPrimeFactor(12, 50));  // => [ 2 ]
-console.log(commonPrimeFactor(6, 24));  // => [ 2, 3 ]
-console.log(commonPrimeFactor(11, 22));  // => [ 11 ]
-console.log(commonPrimeFactor(45, 60));  // => [ 3, 5 ]
+(commonPrimeFactor(12, 50));  // => [ 2 ]
+(commonPrimeFactor(6, 24));  // => [ 2, 3 ]
+(commonPrimeFactor(11, 22));  // => [ 11 ]
+(commonPrimeFactor(45, 60));  // => [ 3, 5 ]

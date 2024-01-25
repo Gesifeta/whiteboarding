@@ -23,8 +23,8 @@ const threeUniqueVowels = (string) => {
     return count >= 3
 }
 
-console.log(threeUniqueVowels('delicious'));  // => true
-console.log(threeUniqueVowels('the bootcamp'));  // => true
-console.log(threeUniqueVowels('bootcamp'));  // => false
-console.log(threeUniqueVowels('dogiu'));  // => false
-console.log(threeUniqueVowels('go home'));  // => false
+(threeUniqueVowels('delicious'));  // => true
+(threeUniqueVowels('the bootcamp'));  // => true
+(threeUniqueVowels('bootcamp'));  // => false
+(threeUniqueVowels('dogiu'));  // => false
+(threeUniqueVowels('go home'));  // => false

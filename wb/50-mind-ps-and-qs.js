@@ -6,7 +6,7 @@ const mindPsAndQs = (str) => {
     return count;
 }
 
-console.log(mindPsAndQs('BOOTCAMP'));  // => 1
-console.log(mindPsAndQs('APCDQQPPC'));  // => 4
-console.log(mindPsAndQs('PQPQ'));  // => 4
-console.log(mindPsAndQs('PPPXQPPPQ'));  // => 5
+(mindPsAndQs('BOOTCAMP'));  // => 1
+(mindPsAndQs('APCDQQPPC'));  // => 4
+(mindPsAndQs('PQPQ'));  // => 4
+(mindPsAndQs('PPPXQPPPQ'));  // => 5

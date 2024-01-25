@@ -13,9 +13,9 @@ const arr1 = [
     ['g', 'h', 'i']
 ];
 
-console.log(reverse2D(arr1)) // => 'ihgfedcba'
+(reverse2D(arr1)) // => 'ihgfedcba'
 const arr2 = [
     ['Julian', 'Matt', 'Mike'],
     ['Oscar', 'Patrick']
 ];
-console.log(reverse2D(arr2)) // => 'PatrickOscarMikeMattJulian'
+(reverse2D(arr2)) // => 'PatrickOscarMikeMattJulian'
