@@ -11,4 +11,4 @@ const a2 = [10, 20, 30, 40];
 
 const result = zipArray(a1, a2);
 result; // => [ [ 'a', 10 ], [ 'b', 20 ], [ 'c', 30 ], [ 'd', 40 ] ]
-console.log(result)
+(result)

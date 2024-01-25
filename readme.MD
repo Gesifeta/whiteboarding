@@ -367,7 +367,7 @@ Write a function shortestWord(sentence) that returns the shortest word of a sent
 Examples:
 
 shortestWord('app academy is cool') // => 'is'
-shortestWord('programming bootcamp') // => 'bootcamp'
+shortestWord('programming bootcamp least assessment') // => 'bootcamp'
 # greatestCommonFactor
 Write a function greatestCommonFactor(num1, num2) that returns the largest number that is divides both num1 and num2.
 

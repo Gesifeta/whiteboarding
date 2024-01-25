@@ -11,6 +11,6 @@ let twoDiff = (arr) => {
     return diff;
 
 }
-console.log(twoDiff([2, 3, 4, 6, 1, 7])) // => [[0, 2], [1, 4], [2, 3]]
-console.log(twoDiff([0, 2, 4, 3, 5])) // => [[0, 1], [1, 2], [3,4]]
-console.log(twoDiff([]))  // => []
+(twoDiff([2, 3, 4, 6, 1, 7])) // => [[0, 2], [1, 4], [2, 3]]
+    (twoDiff([0, 2, 4, 3, 5])) // => [[0, 1], [1, 2], [3,4]]
+    (twoDiff([]))  // => []

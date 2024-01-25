@@ -17,7 +17,7 @@ let countScores = (arrPeople) => {
 
 
     }
-    console.log(people)
+    (people)
     return (arrPeople)
 
 }

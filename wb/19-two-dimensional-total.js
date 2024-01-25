@@ -14,7 +14,7 @@ const arr1 = [
     [12, 13],
 ];
 
-console.log(twoDimensionalArraySum(arr1));  // => 40
+(twoDimensionalArraySum(arr1));  // => 40
 
 const arr2 = [
     [2],
@@ -22,4 +22,4 @@ const arr2 = [
     [1, 1, 1]
 ]
 
-console.log(twoDimensionalArraySum(arr2));  // => 15
+    (twoDimensionalArraySum(arr2));  // => 15

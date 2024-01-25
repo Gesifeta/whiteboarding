@@ -23,6 +23,6 @@ const peakFinder = (arr) => {
     }
     return peakArray
 }
-console.log(peakFinder([1, 2, 3, 2, 1])); // => [2]
-console.log(peakFinder([2, 6, 1, 2, 3, 4, 5])); // => [0, 5]
-console.log(peakFinder([4, 6, 9, 4, 2, 6, 6, 8, 7, 7, 2, -4, 5])); // => [2, 6, 8]
+(peakFinder([1, 2, 3, 2, 1])); // => [2]
+(peakFinder([2, 6, 1, 2, 3, 4, 5])); // => [0, 5]
+(peakFinder([4, 6, 9, 4, 2, 6, 6, 8, 7, 7, 2, -4, 5])); // => [2, 6, 8]

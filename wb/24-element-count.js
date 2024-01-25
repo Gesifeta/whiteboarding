@@ -13,5 +13,5 @@ const elementCount = (arr) => {
     }
     return repeatElements;
 }
-console.log(elementCount(["a", "a", "b", "b"])); // => { "a" : 2, "b" : 2 }
-console.log(elementCount(['c', 'a', 'c', 'a', 'b'])); // => { "c": 2, "a": 2, "b": 1 }
+(elementCount(["a", "a", "b", "b"])); // => { "a" : 2, "b" : 2 }
+(elementCount(['c', 'a', 'c', 'a', 'b'])); // => { "c": 2, "a": 2, "b": 1 }

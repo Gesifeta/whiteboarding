@@ -11,6 +11,6 @@ let firstPrimes = (n) => {
         }
         index++;
     }
-    return console.log(primes)
+    return (primes)
 }
 firstPrimes(5);
